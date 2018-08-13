@@ -1,7 +1,7 @@
 {
     "app_id" : "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
-    "desktopappname": "Moodle Desktop",
+    "appname": "Eaceprep",
+    "desktopappname": "Eaceprep Desktop",
     "versioncode" : 3510,
     "versionname" : "3.5.1",
     "cache_expiration_time" : 300000,
