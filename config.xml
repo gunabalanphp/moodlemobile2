@@ -23,7 +23,7 @@
     <preference name="webviewbounce" value="false" />
     <preference name="AppendUserAgent" value="MoodleMobile" />
     <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="26" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="none" />
@@ -116,6 +116,9 @@
     </plugin>
     <plugin name="cordova-plugin-customurlscheme" spec="4.3.0">
         <variable name="URL_SCHEME" value="moodlemobile" />
+    </plugin>
+    <plugin name="cordova-android-support-gradle-release">
+    <variable name="ANDROID_SUPPORT_VERSION" value="26.0.0"/>
     </plugin>
     <plugin name="ionic-plugin-keyboard" spec="2.2.1" />
     <plugin name="cordova-plugin-zip" spec="3.1.0" />
